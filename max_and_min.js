@@ -1,11 +1,5 @@
 //use while loop instead of a for loop//
 
-let i = 0;
-while (i<10) {
-    //do something
-    i++
-}
-
 function max(numbers) {
     let i = 1; 
     while (i < numbers.length) {
