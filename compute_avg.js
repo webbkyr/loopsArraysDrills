@@ -1,8 +1,14 @@
 function average(numbers) {
-    // your code goes here
+    let total = numbers[0];
+    let i = 1;
+    while (i < numbers.length) {
+      total += numbers[i];
+      i++;
+    } 
+    return total / numbers.length;
   }
   
-  
+
   
   
   /* From here down, you are not expected to 
