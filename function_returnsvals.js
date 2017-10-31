@@ -11,10 +11,20 @@ const rocksWarning = hazardWarningCreator('Rocks on the Road');
 const waterWarning = hazardWarningCreator('Road is flooded');
 const iceWarning = hazardWarningCreator('Bridges are icey');
 
-console.log(rocksWarning());
-console.log(waterWarning());
-console.log(iceWarning());
+// rocksWarning();
+// waterWarning();
+// iceWarning();
 
-console.log(rocksWarning());
-console.log(waterWarning());
-console.log(iceWarning());
+
+// rocksWarning();
+// waterWarning();
+// iceWarning();
+
+
+// rocksWarning();
+// waterWarning();
+// iceWarning();
+
+rocksWarning('Ventura Blvd');
+iceWarning('NY Avenue');
+waterWarning('Edmondson Pwky');

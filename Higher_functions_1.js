@@ -4,13 +4,13 @@ function repeat(fn, n) {
     }
 }
 
-function hello() {
+const hello = function helloGreeting() {
     return "Hello World";
 }
 
-function goodBye() {
+const goodbye = function goodByeGreeting() {
     return "Goodbye World";
 }
 
 repeat(hello(), 5);
-repeat(goodBye(), 5);
+repeat(goodbye(), 5);
