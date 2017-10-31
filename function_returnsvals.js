@@ -26,5 +26,13 @@ const iceWarning = hazardWarningCreator('Bridges are icey');
 // iceWarning();
 
 rocksWarning('Ventura Blvd');
+rocksWarning('12th and Maryland NE');
+rocksWarning('17th and U St SE')
+
 iceWarning('NY Avenue');
+iceWarning('8th and H St NE');
+iceWarning('15th and Benning NE');
+
 waterWarning('Edmondson Pwky');
+waterWarning('Blue Lagoon Road');
+waterWarning('Wakikki Peak');
