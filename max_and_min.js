@@ -1,19 +1,20 @@
 //use while loop instead of a for loop//
 
 function max(numbers) {
-    let i = 1; 
-    while (i < numbers.length) {
-        let maxNumber = numbers[0];
-        if (numbers[i] > maxNumber) {
-            maxNumber += numbers[i];
-        }
-        i++
-        return maxNumber;
+    let i = 0; 
+    let maxNumber = numbers[0];
+    while (i <= numbers.length) {
+      if (numbers[i] > maxNumber) {
+          maxNumber = numbers[i];
+          }
+        i++;
     }
+    return maxNumber;
+  }
+   
+    
 
-   }
-   
-   
+    
    function min(numbers) {
     // your code here
    }
