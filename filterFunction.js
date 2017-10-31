@@ -9,4 +9,12 @@ const filteredNames = filter(myNames, function(name) {
 console.log(filteredNames) // => ['Rich', 'Ray']
 
 // TASK -- DEFINE YOUR FILTER FUNCTION BELOW:
-function filter() {}
+function filter(arr, fn) {
+   newArray = [];
+   for (let i = 0; i < arr.length; i++) {
+      if (fn(arr[i])) {
+          newArray.push(arr[i]);
+      }
+   }
+   return newArray;
+}
