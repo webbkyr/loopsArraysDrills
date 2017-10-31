@@ -1,15 +1,24 @@
 function average(numbers) {
-    let total = numbers[0];
-    let i = 1;
-    while (i < numbers.length) {
-      total += numbers[i];
-      i++;
-    } 
-    return total / numbers.length;
+    //we declared sum out of the forEach//
+    let sum = 0; 
+    //each number in the array is passed as value//
+    numbers.forEach((value) => {
+        sum += value;
+    })
+    return sum/numbers.length;
   }
-  
 
-  
+
+//   function average(numbers) {
+//     let total = numbers[0];
+//     let i = 1;
+//     while (i < numbers.length) {
+//       total += numbers[i];
+//       i++;
+//     } 
+//     return total / numbers.length;
+//   }
+
   
   /* From here down, you are not expected to 
      understand.... for now :)  
