@@ -8,7 +8,8 @@ const turtleMoves = [[0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4], [3, 2]];
 
 //const turtleMoves = [1, 3, -4, 4, -5, 6, -8, 9, -1];
 
-const backRight = turtleMoves.filter(function(num) {
-    return num < 0});
+const backRight = turtleMoves.filter(function(array) {
+    return (array[0] >= 0) && (array[1] >=0);
+});
 
 console.log(backRight);
