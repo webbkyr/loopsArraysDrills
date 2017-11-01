@@ -13,3 +13,9 @@ const backRight = turtleMoves.filter(function(array) {
 });
 
 console.log(backRight);
+
+const totalMoves = backRight.map(function(array) {
+    return (array[0] + array[1]);
+});
+
+console.log(totalMoves);
