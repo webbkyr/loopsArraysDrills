@@ -19,3 +19,7 @@ const totalMoves = backRight.map(function(array) {
 });
 
 console.log(totalMoves);
+
+totalMoves.forEach(function(num) {
+    console.log(num);
+})
